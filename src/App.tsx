@@ -43,6 +43,8 @@ interface Data {
   value: number;
 }
 
+console.log("hiiiiii")
+
 const App: React.FC = () => {
   const [data, setData] = useState<Data[]>([]);
   const [filter, setFilter] = useState("");
